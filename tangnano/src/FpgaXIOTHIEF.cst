@@ -1,0 +1,74 @@
+//Copyright (C)2014-2022 Gowin Semiconductor Corporation.
+//All rights reserved. 
+//File Title: Physical Constraints file
+//GOWIN Version: 1.9.8.08
+//Part Number: GW1N-LV1QN48C6/I5
+//Device: GW1N-1
+//Created Time: Mon 11 07 23:14:40 2022
+
+IO_LOC "uart_tx" 8;
+IO_PORT "uart_tx" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8;
+IO_LOC "n_reset_button" 14;
+IO_PORT "n_reset_button" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "msx_n_reset" 13;
+IO_PORT "msx_n_reset" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "msx_n_rd" 5;
+IO_PORT "msx_n_rd" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "msx_n_wr" 46;
+IO_PORT "msx_n_wr" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "msx_n_iorq" 10;
+IO_PORT "msx_n_iorq" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "msx_n_sltsl" 11;
+IO_PORT "msx_n_sltsl" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "msx_ad[15]" 23;
+IO_PORT "msx_ad[15]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "msx_ad[14]" 16;
+IO_PORT "msx_ad[14]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "msx_ad[13]" 34;
+IO_PORT "msx_ad[13]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "msx_ad[12]" 21;
+IO_PORT "msx_ad[12]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "msx_ad[11]" 24;
+IO_PORT "msx_ad[11]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "msx_ad[10]" 20;
+IO_PORT "msx_ad[10]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "msx_ad[9]" 19;
+IO_PORT "msx_ad[9]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "msx_ad[8]" 17;
+IO_PORT "msx_ad[8]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "msx_ad[7]" 22;
+IO_PORT "msx_ad[7]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "msx_ad[6]" 18;
+IO_PORT "msx_ad[6]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "msx_ad[5]" 31;
+IO_PORT "msx_ad[5]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "msx_ad[4]" 28;
+IO_PORT "msx_ad[4]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "msx_ad[3]" 32;
+IO_PORT "msx_ad[3]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "msx_ad[2]" 29;
+IO_PORT "msx_ad[2]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "msx_ad[1]" 33;
+IO_PORT "msx_ad[1]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "msx_ad[0]" 30;
+IO_PORT "msx_ad[0]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "msx_dt[7]" 41;
+IO_PORT "msx_dt[7]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "msx_dt[6]" 38;
+IO_PORT "msx_dt[6]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "msx_dt[5]" 42;
+IO_PORT "msx_dt[5]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "msx_dt[4]" 39;
+IO_PORT "msx_dt[4]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "msx_dt[3]" 43;
+IO_PORT "msx_dt[3]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "msx_dt[2]" 40;
+IO_PORT "msx_dt[2]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "msx_dt[1]" 44;
+IO_PORT "msx_dt[1]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "msx_dt[0]" 45;
+IO_PORT "msx_dt[0]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "uart_rx" 9;
+IO_PORT "uart_rx" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "msx_clock" 27;
+IO_PORT "msx_clock" IO_TYPE=LVCMOS33 PULL_MODE=UP;
